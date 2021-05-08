@@ -1,0 +1,51 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color: black;
+}
+#container{
+    width: 1000px;
+    height: 900px;
+    background-image:
+            linear-gradient(rgba(66, 33, 33, 0.3),rgba(66, 33, 33,0.3)),url("../images/bckimg.png");
+            margin: 20px auto;
+}
+#calculator{
+    width: 450px;
+    height: 720px;
+    background-color: #eaedef;
+    margin: 20px auto;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 2px black,-2px -2px 5px 2px black;
+}
+#result{
+    height: 220px;
+}
+#history{
+    text-align: right;
+    height: 90px;
+    font-size: 30px;
+    margin: 0 30px;
+    padding-top: 80px;
+}
+#output-value{
+    text-align: right;
+    height: 50px;
+    margin: 0 30px;
+    font-size: 30px;
+}
+#keyboard{
+    height: 500px;
+}
+.operator, .number ,.empty{
+    background-color: #b3b6b6;
+    width: 60px;
+    height: 60px;
+    margin: 25px 20px 10px 30px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
