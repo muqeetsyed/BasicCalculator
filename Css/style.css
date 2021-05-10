@@ -13,7 +13,7 @@ body{
     width: 450px;
     height: 720px;
     background-color: #eaedef;
-    margin: 20px auto;
+    margin: 22px auto;
     position: relative;
     top: 100px;
     border-radius: 20px;
@@ -24,14 +24,14 @@ body{
 }
 #history{
     text-align: right;
-    height: 90px;
+    height: 60px;
     font-size: 30px;
     margin: 0 30px;
-    padding-top: 80px;
+    padding-top: 70px;
 }
-#output-value{
+#output{
     text-align: right;
-    height: 50px;
+    height: 70px;
     margin: 0 30px;
     font-size: 30px;
 }
@@ -47,5 +47,38 @@ body{
     border-radius: 50%;
     border-width: 0;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
+}
+.number , .empty{
+    background-color: #eaedef;
+    font-size: 20px;
+}
+.operator, .number{
+    cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus ,.empty:focus{
+    outline: 0;
+}
+button:nth-child(4){
+    font-size: 22px;
+    background-color: #2b8768;
+}
+button:nth-child(8){
+    font-size: 22px;
+    background-color: #404482;
+}
+button:nth-child(12){
+    font-size: 22px;
+    background-color: #785293;
+}
+button:nth-child(16){
+    font-size: 22px;
+    background-color: #9a7a52;
+}
+button:nth-child(20){
+    font-size: 22px;
+    background-color: #894a60;
 }
